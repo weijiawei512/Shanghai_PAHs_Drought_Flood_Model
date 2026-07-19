@@ -1,0 +1,2 @@
+本文件夹下是未来台风风速增大125%、海平面上升1.1米、外海边界波浪更稀疏，7支河流入海口处的边界条件。
+对应源文件文件夹E:\WorkSpace\RawData\BoundaryCondition_MIKE模型未来情境边界条件\cw_winnie125_110

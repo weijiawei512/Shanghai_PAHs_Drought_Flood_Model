@@ -1,0 +1,4444 @@
+// Created     : 2025-09-18 15:1:36
+// DLL id      : C:\Program Files (x86)\DHI\2014\bin\x64\pfs2004.dll
+// PFS version : Feb  4 2015 19:28:27
+
+[BndCondition]
+   Comment = ''
+   [BndCndArray]
+      [BndItem]
+         DescType = 0, 1, '黄浦江', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 260, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+            Qh = 0, 0
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '黄浦江', 113034.75380989, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_HPJ.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '金汇港', 23064.61, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '大治河', 42470.46, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_DZH.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '淀浦河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 65, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '川杨河', 29697.14, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_CYH.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '龙泉港', 19317.99, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_LQG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '芦潮港', 14285.3, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_LCG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '高桥港', 9987.23, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_GQG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '太浦河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 325, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '圆泄泾', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 117, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '大泖港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45.5, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '小泖港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 19.5, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '盐铁河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '横沥河1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '浦华塘', 9996.062731970889, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 45, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '荻泾1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '练祁河1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '练祁河3', 2729.76189437834, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '浦东运河3', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '随塘河1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '张家浜2', 5325.16469231155, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '五灶港2', 7272.58221250708, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '中港河', 9569.72544915586, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '殷家港2', 8838.158597067761, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '石皮泐港3', 6169.44172968171, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '芦潮港1', 6274.96790996444, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '白龙港5', 4895.08641318893, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '黄沙港4', 4849.6808503998, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '万泐河1', 6211.8032808517, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 45, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '中港河2', 1331.80328877804, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '红庙港3', 1771.01665717745, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '南门港2', 1905.38709977789, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '隋塘河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '南竹港2', 6210.1054941476, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '上横泾', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '老龙泉港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '张泾河1', 13622.0811745329, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |.\Case1\TS_JHG.dfs0|, 45, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '红旗港1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '新张泾河', 10000.9138402289, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 45, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '六里塘', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '面丈河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 20, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '北石塘', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 20, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '北石港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 20, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '南界泾', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 20, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '南横港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 20, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '桥港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 20, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 5, 0, '船塘港2', 5902.29077871856, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 0, |..\MIKE_201803\Model\MIKE 11\SLR110_Winnie125_LS2055\BoundaryCondition\Case1\TS_JHG.dfs0|, 0, 1, '下游边界水位', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 1000000, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 10000000, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '杨盛河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 30, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '新通波塘1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 35, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '横沔港', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 35, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '西大盈港一', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 45, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '吴淞江', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 0, 0, 1, ||, 65, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '淀浦河', 37650, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, '东走马塘', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 1, 0.1, 1, ||, 15, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '俞泾浦', 1783.21995464149, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '俞泾浦', 5141.69037291462, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '俞泾浦', 11279.4825559988, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '蕰藻浜', 28207.6917576611, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '彭越浦', 3000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '彭越浦', 3932.57949826973, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '彭越浦', 6667.97102139986, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '桃浦河', 7075.32712044514, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '桃浦河', 8040.98751623654, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '桃浦河', 9467.767106783031, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '桃浦河', 11709.2825665515, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '西虬江', 8441.4310832626, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '西虬江', 9588.339972407681, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '西虬江', 10428.875515975, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '新泾港', 1500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '新泾港', 2500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '新泾港', 6258.48444871843, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '新泾港', 10885.2949765412, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '漕河泾港', 5474.09612218746, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '横泾港1', 1772.48277173145, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '北竹港1', 1500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '春申塘', 4190, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '横泾港5', 2310, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-MHX.dfs0|, 62.95, 1, 'MHX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-MHX.dfs0|, 2731, 1, 'MHX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '通波塘', 14378.3316957022, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJX.dfs0|, 9.92, 1, 'SJX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJX.dfs0|, 2731, 1, 'SJX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '俞塘河', 1903.94327646598, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJX.dfs0|, 9.92, 1, 'SJX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJX.dfs0|, 2731, 1, 'SJX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '松江市河', 3888.18925961875, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJX.dfs0|, 9.92, 1, 'SJX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJX.dfs0|, 2731, 1, 'SJX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '松江市河', 5745, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJX.dfs0|, 9.92, 1, 'SJX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJX.dfs0|, 2731, 1, 'SJX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '松江市河', 6241, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJX.dfs0|, 9.92, 1, 'SJX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJX.dfs0|, 2731, 1, 'SJX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '辰山塘', 9500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJX.dfs0|, 9.92, 1, 'SJX', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJX.dfs0|, 2731, 1, 'SJX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '东走马塘', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '东走马塘', 2517.11031826417, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '东走马塘', 4593.72187320149, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '沙泾港', 1009.53176157919, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '沙泾港', 2637.76712690239, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '沙泾港', 4513.56344282922, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 1, 4
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-ZHU.dfs0|, 55.02, 1, 'ZHU', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-ZHU.dfs0|, 2731, 1, 'ZHU', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '南界泾', 7785, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '北石港', 7000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '黄桥港', 2836, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '毛竹港', 3984, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '黄浦江', 37000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '南泖泾', 7690, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '横山塘', 3898, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '油墩港2', 9547, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '通波塘', 5413, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '北泖泾1', 3030, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '砖新河', 6971, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-SJD.dfs0|, 217.83, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-SJD.dfs0|, 1494, 1, 'SJD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '六磊塘', 12700, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-MHD.dfs0|, 134.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-MHD.dfs0|, 1395, 1, 'MHD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '周浦塘', 7000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-MHD.dfs0|, 134.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-MHD.dfs0|, 1395, 1, 'MHD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '沈庄塘', 8211, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-MHD.dfs0|, 134.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-MHD.dfs0|, 1395, 1, 'MHD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '大治河', 2500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-MHD.dfs0|, 134.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-MHD.dfs0|, 1395, 1, 'MHD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '荻泾1', 3515, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-BSD.dfs0|, 162.43, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-BSD.dfs0|, 1656, 1, 'BSD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '荻泾2', 4680, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-BSD.dfs0|, 162.43, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-BSD.dfs0|, 1656, 1, 'BSD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '练祁河4', 15000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-BSD.dfs0|, 162.43, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-BSD.dfs0|, 1656, 1, 'BSD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '蕰藻浜', 21700, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-BSD.dfs0|, 162.43, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-BSD.dfs0|, 1656, 1, 'BSD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '西大盈港一', 2579.28591729784, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '东大盈港', 10383, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '东大盈港', 4843, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '艾祁港', 9620.71020631616, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '新通波塘1', 7000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '淀浦河', 14000.0621025198, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '淀浦河', 24000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '朱泖河', 2000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '黄浦江', 692, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '南横港', 3000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '桥港', 5237, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '太浦河', 11246, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-QP.dfs0|, 305.67, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-QP.dfs0|, 1327, 1, 'QP', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '小泖港', 3884, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '大泖港', 8751, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '惠高泾', 5000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '中运河', 4000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '新泾塘', 707, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '长楼港', 3474, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '红旗港3', 4800, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '龙泉港', 12000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JS.dfs0|, 221.86, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JS.dfs0|, 1093, 1, 'JS', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '浦华塘', 4665.05537044419, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '横沥河1', 6103, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '横沥河2', 3000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '练祁河1', 2603.14571278008, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '盐铁河', 7106, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '蕰藻浜', 3426.47831255268, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '封浜河', 2500, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '西虬江', 2321.32394724613, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-JD.dfs0|, 196.74, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-JD.dfs0|, 2104, 1, 'JD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '南沙港1', 5598, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '金汇港', 5960, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '浦南运河2', 5153, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '西沿塘河', 4000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '奉新港', 6000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '三团港2', 2490, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '浦南运河2', 18191, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-FX.dfs0|, 414.03, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-FX.dfs0|, 716.9999999999999, 1, 'FX', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '高桥港1', 1600, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '赵家沟', 5687, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '张家浜1', 16324, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '川杨河', 7000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '咸塘港1', 18000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '浦东运河2', 2912, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '围场河', 4000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '五灶港1', 3578, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '惠新港', 6614, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '大治河', 22833, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '白龙港1', 4000, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '五尺沟4', 3095, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '团芦港2', 3125, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 1, 0, '围场河', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, true, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\TS-CHARGE-PD.dfs0|, 358.76, 1, 'SJD', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 0, |.\TS-PAHS-PD.dfs0|, 1300, 1, 'PD', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+   EndSect  // BndCndArray
+
+EndSect  // BndCondition
+
